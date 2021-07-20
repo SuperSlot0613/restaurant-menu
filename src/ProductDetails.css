@@ -1,0 +1,9 @@
+.product__dtails{
+    display: flex;
+    padding:40px;
+    margin:20px 0;
+    background-color: white;
+    position:relative;
+    border:1px solid lightgray;
+}
+

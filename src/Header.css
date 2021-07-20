@@ -1,0 +1,83 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: crimson;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 8px;
+  color:white;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 30px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 100%;
+}
+.header__search >.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 2em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  size:20px;
+  height: 30px !important;
+  background-color: #cd9042;
+  width:10em;
+  border:2px solid gray;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color:white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
