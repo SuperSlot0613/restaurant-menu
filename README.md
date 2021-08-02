@@ -37,7 +37,7 @@ If you want to display your own pictures then you have to replace the code.
 
 Once all the formatting and data input is finalised, run `npm run build`. This will create a dedicated build folder.
 
-## 6. Host Resume Online
+## 6. Host Website Online
 
 1) Open the build folder in the finder screen
 2) Go to <a href="https://www.netlify.com/">Netlify</a> and set up a profile
