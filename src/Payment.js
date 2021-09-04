@@ -84,8 +84,6 @@ function Payment() {
   };
 
   const handleChange = (e) => {
-    //Listen for change in the CardElement
-    //and display any error as the customer types their card details
     setDisabled(e.empty);
     setError(e.error ? e.error.message : "");
   };
